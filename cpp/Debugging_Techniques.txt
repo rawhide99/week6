@@ -1,0 +1,12 @@
+# Debugging Techniques
+
+1) Using in-circuit emulators
+-> Full Access to register and memory
+-> Unlimited Breakpoints
+-> Trace recording with TimeStamps
+-> Output Triggers	
+
+2) On-chip Debugger(in-circuit Debugger)
+-> JTAG (Joint Test Action Group), SWO, UART can be used.
+-> Now this MCU board is connected using Debug probe with PC/Computer and there we can use GDB
+-> Another one is SWD in MCU that is connected via USB to PC and uses PyOCD/GDB.
